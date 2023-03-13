@@ -4,23 +4,22 @@ body{
     height: 100vh;
     margin:0 auto;
     background-color: var(--background-main);
-    font-size: 62.5%;
-    
+    font-size: 62.5%;    
 }
+
 .header{
     display: flex;
     justify-content: space-between;
-    height: 15%;  /* trocar por padding 30px ou mais */
+    height: 15%; 
     background-color: #ffffff;
     width: 100%;
-    flex-shrink: 1;
-    /* margin:0 auto; */
+    flex-shrink: 1;   
 }
+
 .header .logo{
     margin: 30px;
     display: flex;
-    align-items: center;
-    
+    align-items: center;    
 }
 
 .logo .logo-img{
@@ -37,13 +36,12 @@ body{
 
 nav  .menu li a{
     cursor: pointer;
+    color: #000000;
     transition: 0.3s all ease-in-out;    
     font-size: 1rem;
-
 }
 
-nav .menu li a:hover{
-    /* transform: scale(1.5); AJUSTE */
+nav .menu li a:hover{   
     font-size: 17px;
     color: var(--background-button);
 }
@@ -52,6 +50,7 @@ nav .menu li a:hover{
     display: flex;
     align-items: center;   
 }
+
 .button a{
     background-color: var(--background-main);
     padding: 8px 15px;
@@ -67,6 +66,7 @@ nav .menu li a:hover{
 .button a:hover{
     transform: scale(1.1);
 }
+
 main{
     display: flex;
     align-items: center;
@@ -82,6 +82,7 @@ main .description{
     margin: 150px auto;
     align-items: center;   
 }
+
 .buttons button{
     background-color: var(--defaul-color-font);
     color: var(--background-button);
@@ -94,14 +95,9 @@ main .description{
     cursor: pointer;    
     transition: 0.4s ease-in-out;
 }
-/* .buttons button a{
-    color: var(--background-button);
-} */
+
 .buttons button:hover{
     background-color:#6e51d9;
     color: var(--defaul-color-font);
     transform: scale(1.1);
 }
-/* .buttons button a:hover{
-    color: #ffffff;
-} */
